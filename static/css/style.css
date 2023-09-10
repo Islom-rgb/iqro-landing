@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.head-container {
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #000, #047573);
+}
+
+nav {
+    padding-right: 100px;
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-text {
+    margin-left: 5px;
+}
+
+.header-items {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFF;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+}
+
+.description {
+    width: 80%;
+    align-self: center;
+    margin: 0 auto;
+    display: flex;
+    color: #FFFF;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.description-text>h1 {
+    font-size: 60px;
+    width: 75%;
+}
+
+.description-text>p {
+    font-size: 24px;
+}
+
+.description-text>button {
+    margin-top: 100px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16;
+    width: 222px;
+    height: 72px;
+    border-radius: 80px;
+    border: none;
+    font-size: 16px;
+    color: #2E2E2E;
+    font-weight: 800;
+    background-color: #FFFF;
+    margin: 5px;
+}
+
+.description>img {
+    width: 80%;
+    height: 530px;
+    overflow: hidden;
+}
+
+/* MainComponent */
+
+/* service */
+
+.service-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    padding-left: 35px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.28);
+    height: 240px;
+    color: #FFFF;
+    font-weight: 600;
+    font-family: 'Gilroy', sans-serif;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 80% 100%, 0% 100%);
+}
+
+.service-title {
+    color: #fff;
+    font-family: 'Gilroy', sans-serif;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, #000, #047573);
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.service-card>button {
+    background-color: #FFFF;
+    border: none;
+    border-radius: 80px;
+    width: 80%;
+    height: 52px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.services_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.job-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #FFFF;
+    font-family: 'Gilroy', sans-serif;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.job-description-box {
+    margin-top: 40px;
+    width: 100%;
+    height: 544px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.28);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.job-description-box-item {
+    width: 40%;
+    display: flex;
+    font-size: 30px;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.job-description-box-item>img {
+    width: 83px;
+    height: 83px;
+    margin-right: 40px;
+}
+
+/*  checkmarks */
+
+.checkmarks {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #FFFF;
+    align-items: center;
+}
+
+.checkmarks-title {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 30px;
+    width: 785px;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkmarks-title>div {
+    background-color: #000;
+    border-radius: 20px;
+    /* width: 420px; */
+    height: 50px;
+    padding: 10px;
+}
+
+.checkmark-boxes {
+    width: 75%;
+    display: grid;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.checkmark-box {
+    width: 31%;
+    height: 167px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Gilroy', sans-serif;
+    margin-top: 45px;
+    font-weight: 600;
+    display: flex;
+}
+
+.checkmark-box>img {
+    width: 51px;
+    height: 51px;
+}
+
+.checkmark-box>p {
+    margin-top: 3.5pc;
+}
+
+/* pricing */
+
+.pricing {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+    font-family: 'Gilroy', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing::before,
+.pricing::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, #fff, #fff 20px, transparent 10px, transparent 33px);
+}
+
+.pricing::before {
+    bottom: 0;
+}
+
+.pricing::after {
+    top: auto;
+    bottom: 0;
+}
+
+.price-box {
+    padding-left: 10%;
+    height: 430px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.28);
+    border-radius: 20px;
+    justify-content: end;
+    overflow: hidden;
+}
+
+.price-box-text h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.price-box-text p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.price-box-card {
+    background: linear-gradient(to top right, #1d1c1c, #000);
+    border-radius: 20px;
+    width: 40%;
+    height: 430px;
+    padding-left: 15px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price-box-card h1 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 30px;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-box-card p {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.last_btn {
+    color: #047573 !important;
+}
+
+.price-box-card input,
+.price-box-card button {
+    color: #000;
+    text-align: center;
+    background-color: #FFFF;
+    width: 90%;
+    margin: 10px;
+    height: 50px;
+    border-radius: 80px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    border: none;
+}
+
+.price-box-card input {
+    text-align: left;
+}
+
+/* footer */
+
+.footer {
+    background-image: linear-gradient(to right, #047573, #000, #000, #000, #047573);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items {
+    margin: 0 auto;
+    width: 50%;
+    color: #FFFF;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 16;
+    display: flex;
+    justify-content: space-between;
+}
